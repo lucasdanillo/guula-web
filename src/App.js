@@ -1,39 +1,53 @@
 import React from 'react';
 import './styles.css';
-import './styles.scss'
-import {Container, Box, TableFooter} from '@material-ui/core'
-
+import './styles.scss';
+import NavbarComponent from './components/Navbar';
+import {Container, Button} from 'react-bootstrap';
 function App() {
   return (
     <>
-      <Box className="header">
+    <NavbarComponent/>
+      <div className="header" id="home">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
         <span id="title">Uhuuuuuul</span>
-        <ul>
-          <li><a href="#tutorial">tutorial</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#author">author</a></li>
-        </ul>
-      </Box>
-      <Box className="tutorial" id="tutorial">
+        <Container style={{
+            top: "80%",
+            left: 0,
+            right: 0,
+            textAlign: "center",
+            position: "absolute",
+            
+          }} >
+          <Button style={{
+            color: "white",
+            backgroundColor: "orange",
+            borderColor: "orange",
+          }} 
+          href="#tutorial"
+          >Como baixar o aplicativo</Button>
+        </Container>
+      </div>
+      <div className="tutorial" id="tutorial">
 
-      </Box>
-      <Box className="about" id="about">
-        
-      </Box>
-      <Box className="author" id="author">
+      </div>
+      <div className="about" id="about">
 
-      </Box>
-      <Box  
+      </div>
+      <div className="author" id="author">
+
+      </div>
+      <Container
         className="footer"
-        display="flex" 
-        alignItems="center"
-        justifyContent="center"
+        style={{
+          textAlign: "center",
+          height: 30
+        }}
       >
-      <TableFooter> &copy; 2020 Guula</TableFooter>
-      </Box>
+        <footer
+        > &copy; 2020 Guula</footer>
+      </Container>
     </>
   );
 }
