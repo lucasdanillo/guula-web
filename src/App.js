@@ -1,11 +1,16 @@
 import React from 'react';
 import './styles.css';
+import './styles.scss'
 import {Container, Box, TableFooter} from '@material-ui/core'
 
 function App() {
   return (
     <>
       <Box className="header">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <span id="title">Uhuuuuuul</span>
         <ul>
           <li><a href="#tutorial">tutorial</a></li>
           <li><a href="#about">about</a></li>
