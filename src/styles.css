@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: transparent;
+}
+.header, .tutorial, .author, .about{
+    height: 100vh;
+}
+.header{
+    background-color: teal;
+}
+.tutorial{
+    background-color: tomato;
+}
+.about{
+    background-color: yellowgreen;
+}
+.author{
+    background-color: violet;
+}

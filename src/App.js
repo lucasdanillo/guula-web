@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+import {Container, Box, TableFooter} from '@material-ui/core'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Box className="header">
+        <ul>
+          <li><a href="#tutorial">tutorial</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#author">author</a></li>
+        </ul>
+      </Box>
+      <Box className="tutorial" id="tutorial">
+
+      </Box>
+      <Box className="about" id="about">
+        
+      </Box>
+      <Box className="author" id="author">
+
+      </Box>
+      <Box  
+        className="footer"
+        display="flex" 
+        alignItems="center"
+        justifyContent="center"
+      >
+      <TableFooter> &copy; 2020 Guula</TableFooter>
+      </Box>
+    </>
   );
 }
 
