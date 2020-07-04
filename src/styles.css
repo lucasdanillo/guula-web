@@ -6,9 +6,18 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    background-color: transparent;
+
+.button:hover{
+    filter: brightness(90%);
 }
+
+
+.header{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),url(./assets/1740.jpg);
+}
+
+
 .header, .author, .about{
     height: 100vh;
 }
@@ -39,4 +48,9 @@ body{
     border-style: solid;
     border-color: #ccc;*/
     color: #595959;
+}
+
+.icon{
+    margin: 5px;
+    margin-left: 6px;
 }

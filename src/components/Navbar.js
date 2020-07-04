@@ -9,7 +9,7 @@ export default function NavbarComponent(props) {
             expand="lg"
             style={{
                 backgroundColor: props.color.backgroundColor,
-                transition: "0.3s"
+                transition: "0.3s",
             }}
         >
             <Navbar.Brand href="#home" style={{
