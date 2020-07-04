@@ -6,7 +6,7 @@ import img1 from './assets/arthur.jpeg';
 import img2 from './assets/danillo.jpeg';
 import img3 from './assets/gisele.jpg';
 import img4 from './assets/samuel.jpeg';
-import { FiInstagram, FiGithub, FiMail } from 'react-icons/fi'
+import { FaInstagram, FaGithub, FaLinkedinIn, FaHeart } from 'react-icons/fa'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     document.addEventListener("scroll", () => {
       window.scrollY > 150 ?
         setNavbarColors({
-          backgroundColor: "orange",
+          backgroundColor: "#ff914d",
           color: "white"
         })
         :
@@ -35,6 +35,7 @@ function App() {
     <>
       <NavbarComponent color={navbarColors} />
       <div className="header" id="home">
+        {/**
         <Container style={{
           top: "70%",
           left: 0,
@@ -51,13 +52,11 @@ function App() {
             href="#tutorial"
           >Como baixar o aplicativo</Button>
         </Container>
+         */}
       </div>
 
       <div className="about" id="about">
 
-      </div>
-      <div className="tutorial" id="tutorial">
-      
       </div>
       <div className="author" id="author">
           <Container  style={{
@@ -75,27 +74,20 @@ function App() {
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container style={{
-                  textAlign: "center"
-                }}>
+                  <Container className="image">
                 <Image style={{width: "80%"}} src={img1} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                  textAlign: "center",
-                  marginTop: 20,
-                }}>
+                  <Container className="name-img">
                 <span>Arthur Basílio</span>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                    textAlign: "center",
-                  }}>
-                    <FiGithub size={16} color="orange"/>
-                    <FiInstagram size={16} color="orange"/>
-                    <FiMail size={16} color="orange"/>
+                  <Container className="icons">
+                    <FaGithub size={23} color="#ff914d"/>
+                    <FaInstagram size={23} color="#ff914d"/>
+                    <FaLinkedinIn size={23} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
@@ -103,27 +95,20 @@ function App() {
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container style={{
-                  textAlign: "center"
-                }}>
+                  <Container className="image">
                 <Image style={{width: "80%"}} src={img2} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                  textAlign: "center",
-                  marginTop: 20,
-                }}>
+                  <Container className="name-img">
                 <span>Danillo Barros</span>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                    textAlign: "center",
-                  }}>
-                    <FiGithub size={16} color="orange"/>
-                    <FiInstagram size={16} color="orange"/>
-                    <FiMail size={16} color="orange"/>
+                  <Container className="icons">
+                    <FaGithub size={23} color="#ff914d"/>
+                    <FaInstagram size={23} color="#ff914d"/>
+                    <FaLinkedinIn size={23} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
@@ -131,27 +116,20 @@ function App() {
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container style={{
-                  textAlign: "center"
-                }}>
+                  <Container className="image">
                 <Image style={{width: "80%"}} src={img3} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                  textAlign: "center",
-                  marginTop: 20,
-                }}>
+                  <Container className="name-img">
                 <span>Gisele Ribeiro</span>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                    textAlign: "center",
-                  }}>
-                    <FiGithub size={16} color="orange"/>
-                    <FiInstagram size={16} color="orange"/>
-                    <FiMail size={16} color="orange"/>
+                  <Container className="icons">
+                    <FaGithub size={23} color="#ff914d"/>
+                    <FaInstagram size={23} color="#ff914d"/>
+                    <FaLinkedinIn size={23} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
@@ -159,42 +137,33 @@ function App() {
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container style={{
-                  textAlign: "center"
-                }}>
+                  <Container className="image">
                 <Image style={{width: "80%"}} src={img4} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                  textAlign: "center",
-                  marginTop: 20,
-                }}>
+                  <Container className="name-img">
                 <span>Samuel Santos</span>
                 </Container>
                 </Row>
                 <Row>
-                  <Container style={{
-                    textAlign: "center",
-                  }}>
-                    <FiGithub size={16} color="orange"/>
-                    <FiInstagram size={16} color="orange"/>
-                    <FiMail size={16} color="orange"/>
+                  <Container className="icons">
+                    <FaGithub size={23} color="#ff914d"/>
+                    <FaInstagram size={23} color="#ff914d"/>
+                    <FaLinkedinIn size={23} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
             </Row>
           </Container>
       </div>
-      <Container
+      <Container fluid
         className="footer"
-        style={{
-          textAlign: "center",
-          height: 30
-        }}
       >
-        <footer
-        > &copy; 2020 Guula</footer>
+        <footer style={{
+          marginTop: 5,
+        }}
+        > Made with <FaHeart color="red" size={13} /> by Guula </footer>
       </Container>
     </>
   );

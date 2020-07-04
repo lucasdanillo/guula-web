@@ -9,15 +9,34 @@ html{
 body{
     background-color: transparent;
 }
-.header, .tutorial, .author, .about{
+.header, .author, .about{
     height: 100vh;
-}
-.tutorial{
-    background-color: transparent;
 }
 .about{
     background-color: transparent;
 }
 .author{
     background-color: transparent;
+}
+.author .image{
+    text-align: center;
+}
+.author .name-img{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+}
+.author .icons{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 8em;
+}
+.footer{
+    text-align: center;
+    height: 2em;
+    /*border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #ccc;*/
+    color: #595959;
 }
