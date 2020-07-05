@@ -3,5 +3,7 @@ nav a:hover{
     transition: 0.2s;
 }
 nav .nav-link .active{
-    color: #ff914d !important
+    color: #ff914d !important;
+    transition: 0.5s;
 }
+

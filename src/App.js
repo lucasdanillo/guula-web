@@ -13,61 +13,76 @@ function App() {
 
   const [navbarColors, setNavbarColors] = useState({
     backgroundColor: 'transparent',
-    color: "#616161"
   });
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
       window.scrollY > 150 ?
         setNavbarColors({
-          backgroundColor: "#ff914d",
-          color: "white"
+          backgroundColor: "#fea26f",
         })
         :
         setNavbarColors({
-          backgroundColor: "white",
-          color: "#616161"
+          backgroundColor: "transparent",
         })
     })
   }, [])
 
   return (
     <>
-      <NavbarComponent color={navbarColors} />
-      <div className="header" id="home">
-        {/**
-        <Container style={{
+    <NavbarComponent color={navbarColors} />
+
+      <div className="header" id="home">    
+        <Container className="content" style={{
           top: "70%",
           left: 0,
           right: 0,
           textAlign: "center",
           position: "absolute",
-
+          width:"100%",
+          
         }} >
-          <Button size="lg" style={{
+         
+          <Button className="button" size="lg" style={{
             color: "white",
-            backgroundColor: "orange",
-            borderColor: "orange",
+            backgroundColor: "#ff914d",
+            borderColor: "#ff914d",
           }}
             href="#tutorial"
-          >Como baixar o aplicativo</Button>
+          >Dowload do Guula</Button>
         </Container>
-         */}
+         
       </div>
 
       <div className="about" id="about">
+          <Container  style={{
+            height: "100vh",
+          }}>
+            <Row>
+              <Container style={{
+                marginTop: 40,
+                textAlign: "center",
+              }}>               
+                <span style={{fontSize: 50,}}>
+                  Sobre     
+                </span>
+                           
+              </Container>
+              
+            </Row>
 
+          </Container>
       </div>
       <div className="author" id="author">
           <Container>
             
               <Row>
               <Container style={{
-                marginTop: 100,
+                marginTop: 40,
                 textAlign: "center",
               }}><span style={{
                 fontSize: 50,
-              }}>Autores</span>
+              }}>Desenvolvedores</span>
               </Container>
               </Row>
             <Row xs={1} md={4}>
@@ -86,9 +101,9 @@ function App() {
                 </Row>
                 <Row>
                   <Container className="icons">
-                    <FaGithub size={23} color="#ff914d"/>
-                    <FaInstagram size={23} color="#ff914d"/>
-                    <FaLinkedinIn size={23} color="#ff914d"/>
+                    <FaGithub  className="icon" size={28} color="#ff914d"/>
+                    <FaInstagram  className="icon" size={28} color="#ff914d"/>
+                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
@@ -107,9 +122,9 @@ function App() {
                 </Row>
                 <Row>
                   <Container className="icons">
-                    <FaGithub size={23} color="#ff914d"/>
-                    <FaInstagram size={23} color="#ff914d"/>
-                    <FaLinkedinIn size={23} color="#ff914d"/>
+                    <FaGithub  className="icon"size={28} color="#ff914d"/>
+                    <FaInstagram  className="icon"size={28} color="#ff914d"/>
+                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
@@ -128,9 +143,9 @@ function App() {
                 </Row>
                 <Row>
                   <Container className="icons">
-                    <FaGithub size={23} color="#ff914d"/>
-                    <FaInstagram size={23} color="#ff914d"/>
-                    <FaLinkedinIn size={23} color="#ff914d"/>
+                    <FaGithub  className="icon"size={28} color="#ff914d"/>
+                    <FaInstagram  className="icon"size={28} color="#ff914d"/>
+                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
@@ -149,9 +164,9 @@ function App() {
                 </Row>
                 <Row>
                   <Container className="icons">
-                    <FaGithub size={23} color="#ff914d"/>
-                    <FaInstagram size={23} color="#ff914d"/>
-                    <FaLinkedinIn size={23} color="#ff914d"/>
+                    <FaGithub  className="icon"size={28} color="#ff914d"/>
+                    <FaInstagram  className="icon"size={28} color="#ff914d"/>
+                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
                   </Container>
                 </Row>
               </Col>
