@@ -35,7 +35,6 @@ export default function NavbarComponent({color}) {
                             to="home"
                             spy={true}
                             smooth={true}
-                            offset={-70}
                             duration={500}
                         >
                             Home
@@ -50,7 +49,6 @@ export default function NavbarComponent({color}) {
                             to="about"
                             spy={true}
                             smooth={true}
-                            offset={-70}
                             duration={500}
                         >
                             Sobre
@@ -65,7 +63,6 @@ export default function NavbarComponent({color}) {
                             to="author"
                             spy={true}
                             smooth={true}
-                            offset={-70}
                             duration={500}
                         >
                             Equipe \o/
