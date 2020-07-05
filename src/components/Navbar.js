@@ -1,38 +1,76 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './styles.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 import {FaBars} from 'react-icons/fa'
 
-export default function NavbarComponent(props) {
+export default function NavbarComponent({color}) {
+    function scrollToTop(){
+        scroll.scrollToTop();
+      };
     return (
         <Navbar
             fixed="top" 
             expand="lg"
             style={{
-                backgroundColor: props.color.backgroundColor,
+                backgroundColor: color.backgroundColor,
                 transition: "0.3s",
             }}
         >
-            <Navbar.Brand href="#home" style={{
+            <Navbar.Brand onClick={scrollToTop} style={{
                         color: "white",
                         transition: "0.3s",
-                        fontSize: 30
+                        fontSize: 30,
+                        cursor: "pointer"
             }}>Guula</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" style={{borderColor: "transparent"}}><FaBars size={25} color="white"/></Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav style={{ width: "100%" }} className="mr-auto justify-content-end">
                     <Nav.Link style={{
-                        color: (window.location.href === 'http://localhost:3000/#home') ? "orange" : "white",
+                        color: "white",
                         fontSize: 25
-                    }} href="#home">Home</Nav.Link>
+                    }}>
+                        <Link
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                            Home
+                        </Link>
+                    </Nav.Link>
                      <Nav.Link style={{
-                        color: (window.location.href === 'http://localhost:3000/#about') ? "orange" : "white",
+                        color: "white",
                         fontSize: 25
-                    }} href="#about">Sobre</Nav.Link>
+                    }}>
+                        <Link
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                            Sobre
+                        </Link>
+                    </Nav.Link>
                     <Nav.Link style={{
-                        color: (window.location.href === 'http://localhost:3000/#author') ? "orange" : "white",
+                        color: "white",
                         fontSize: 25
-                    }} href="#author">Autores</Nav.Link>
+                    }}>
+                        <Link
+                            activeClass="active"
+                            to="author"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                            Equipe \o/
+                        </Link>
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
