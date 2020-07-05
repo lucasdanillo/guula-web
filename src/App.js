@@ -59,10 +59,9 @@ function App() {
 
       </div>
       <div className="author" id="author">
-          <Container  style={{
-            height: "100vh",
-          }}>
-            <Row>
+          <Container>
+            
+              <Row>
               <Container style={{
                 marginTop: 100,
                 textAlign: "center",
@@ -70,12 +69,14 @@ function App() {
                 fontSize: 50,
               }}>Autores</span>
               </Container>
+              </Row>
+            <Row xs={1} md={4}>
               <Col style={{
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container className="image">
-                <Image style={{width: "80%"}} src={img1} roundedCircle/>
+                  <Container className="image-container">
+                <Image className="image" src={img1} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>
@@ -95,8 +96,8 @@ function App() {
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container className="image">
-                <Image style={{width: "80%"}} src={img2} roundedCircle/>
+                  <Container className="image-container">
+                <Image className="image" src={img2} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>
@@ -116,8 +117,8 @@ function App() {
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container className="image">
-                <Image style={{width: "80%"}} src={img3} roundedCircle/>
+                  <Container className="image-container">
+                <Image className="image" src={img3} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>
@@ -137,8 +138,8 @@ function App() {
                 marginTop: 50,
               }}>
                 <Row>
-                  <Container className="image">
-                <Image style={{width: "80%"}} src={img4} roundedCircle/>
+                  <Container className="image-container">
+                <Image className="image" src={img4} roundedCircle/>
                 </Container>
                 </Row>
                 <Row>

@@ -20,7 +20,7 @@ export default function NavbarComponent(props) {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav style={{ width: "100%" }} className="mr-auto justify-content-end">
-                    <Nav.Link style={{
+                    <Nav.Link className="active" style={{
                         color: props.color.color,
                         fontSize: 25
                     }} href="#home">Home</Nav.Link>

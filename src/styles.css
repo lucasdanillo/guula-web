@@ -9,7 +9,24 @@ html{
 body{
     background-color: transparent;
 }
-.header, .author, .about{
+@media only screen and (max-width: 768px){
+    .author .name-img{
+        font-size: 23px;
+    }
+    .image{
+        width: 60%;
+    }
+
+}
+@media only screen and (min-width: 768px){
+    .author .name-img{
+        font-size: 23px;
+    }
+    .image{
+        width: 80%;
+    }
+}
+.header, .author,.about{
     height: 100vh;
 }
 .about{
@@ -18,13 +35,12 @@ body{
 .author{
     background-color: transparent;
 }
-.author .image{
+.author .image-container{
     text-align: center;
 }
 .author .name-img{
     text-align: center;
     margin-top: 20px;
-    font-size: 23px;
 }
 .author .icons{
     text-align: center;
@@ -35,6 +51,8 @@ body{
 .footer{
     text-align: center;
     height: 2em;
+    position: absolute;
+    background-color: black;
     /*border-width: 1px 0 0 0;
     border-style: solid;
     border-color: #ccc;*/
