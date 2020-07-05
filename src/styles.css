@@ -16,6 +16,9 @@ body{
     .image{
         width: 60%;
     }
+    .author .title-container{
+        font-size: 35px;
+    }
 
 }
 @media only screen and (min-width: 768px){
@@ -24,6 +27,9 @@ body{
     }
     .image{
         width: 80%;
+    }
+    .author .title-container{
+        font-size: 50px;
     }
 }
 
@@ -75,3 +81,4 @@ body{
     margin: 5px;
     margin-left: 6px;
 }
+

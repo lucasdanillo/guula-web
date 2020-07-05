@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './styles.css';
 import NavbarComponent from './components/Navbar';
-import { Container, Button, Row, Col, Image } from 'react-bootstrap';
-import img1 from './assets/arthur.jpeg';
-import img2 from './assets/danillo.jpeg';
-import img3 from './assets/gisele.jpg';
-import img4 from './assets/samuel.jpeg';
-import { FaInstagram, FaGithub, FaLinkedinIn, FaHeart } from 'react-icons/fa'
+import { Container, Button, Row } from 'react-bootstrap';
+import Author from './components/Author';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -74,113 +71,9 @@ function App() {
           </Container>
       </div>
       <div className="author" id="author">
-          <Container>
-            
-              <Row>
-              <Container style={{
-                marginTop: 40,
-                textAlign: "center",
-              }}><span style={{
-                fontSize: 50,
-              }}>Desenvolvedores</span>
-              </Container>
-              </Row>
-            <Row xs={1} md={4}>
-              <Col style={{
-                marginTop: 50,
-              }}>
-                <Row>
-                  <Container className="image-container">
-                <Image className="image" src={img1} roundedCircle/>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="name-img">
-                <span>Arthur Basílio</span>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="icons">
-                    <FaGithub  className="icon" size={28} color="#ff914d"/>
-                    <FaInstagram  className="icon" size={28} color="#ff914d"/>
-                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
-                  </Container>
-                </Row>
-              </Col>
-              <Col style={{
-                marginTop: 50,
-              }}>
-                <Row>
-                  <Container className="image-container">
-                <Image className="image" src={img2} roundedCircle/>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="name-img">
-                <span>Danillo Barros</span>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="icons">
-                    <FaGithub  className="icon"size={28} color="#ff914d"/>
-                    <FaInstagram  className="icon"size={28} color="#ff914d"/>
-                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
-                  </Container>
-                </Row>
-              </Col>
-              <Col style={{
-                marginTop: 50,
-              }}>
-                <Row>
-                  <Container className="image-container">
-                <Image className="image" src={img3} roundedCircle/>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="name-img">
-                <span>Gisele Ribeiro</span>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="icons">
-                    <FaGithub  className="icon"size={28} color="#ff914d"/>
-                    <FaInstagram  className="icon"size={28} color="#ff914d"/>
-                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
-                  </Container>
-                </Row>
-              </Col>
-              <Col style={{
-                marginTop: 50,
-              }}>
-                <Row>
-                  <Container className="image-container">
-                <Image className="image" src={img4} roundedCircle/>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="name-img">
-                <span>Samuel Santos</span>
-                </Container>
-                </Row>
-                <Row>
-                  <Container className="icons">
-                    <FaGithub  className="icon"size={28} color="#ff914d"/>
-                    <FaInstagram  className="icon"size={28} color="#ff914d"/>
-                    <FaLinkedinIn className="icon" size={28} color="#ff914d"/>
-                  </Container>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
+         <Author />
       </div>
-      <Container fluid
-        className="footer"
-      >
-        <footer style={{
-          marginTop: 5,
-        }}
-        > Made with <FaHeart color="red" size={13} /> by Guula </footer>
-      </Container>
+      <Footer />
     </>
   );
 }

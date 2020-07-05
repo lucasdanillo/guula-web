@@ -2,8 +2,9 @@ nav a:hover{
     color: #ff914d !important;
     transition: 0.2s;
 }
-nav .nav-link .active{
+nav .active a{
     color: #ff914d !important;
-    transition: 0.5s;
 }
-
+.link{
+    color: "black" !important;
+}
