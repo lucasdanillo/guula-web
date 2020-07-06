@@ -8,6 +8,7 @@ export default function NavbarComponent({color}) {
     function scrollToTop(){
         scroll.scrollToTop();
       };
+
     return (
         <Navbar
             fixed="top" 
@@ -34,6 +35,7 @@ export default function NavbarComponent({color}) {
                             activeClass="active"
                             to="home"
                             spy={true}
+                            offset={-70}
                             smooth={true}
                             duration={500}
                         >
@@ -50,6 +52,7 @@ export default function NavbarComponent({color}) {
                             spy={true}
                             smooth={true}
                             duration={500}
+                            offset={-70}
                         >
                             Sobre
                         </Link>
@@ -64,8 +67,9 @@ export default function NavbarComponent({color}) {
                             spy={true}
                             smooth={true}
                             duration={500}
+                            offset={-70}
                         >
-                            Equipe \o/
+                            Desenvolvedores
                         </Link>
                     </Nav.Link>
                 </Nav>
