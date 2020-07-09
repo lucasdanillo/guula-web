@@ -3,6 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import './styles.css';
 
 export default function NavbarComponent(props) {
+
     return (
         <Navbar
             fixed="top" 
@@ -28,6 +29,10 @@ export default function NavbarComponent(props) {
                         color: props.color.color,
                         fontSize: 25
                     }} href="#about">Sobre</Nav.Link>
+                    <Nav.Link style={{
+                        color: props.color.color,
+                        fontSize: 25
+                    }} href="#tutorial">Tutorial</Nav.Link>
                     <Nav.Link style={{
                         color: props.color.color,
                         fontSize: 25
