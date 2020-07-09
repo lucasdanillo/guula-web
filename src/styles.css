@@ -8,7 +8,33 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
+}
+body{
+    background-color: transparent;
+}
+@media only screen and (max-width: 768px){
+    .author .name-img{
+        font-size: 23px;
+    }
+    .image{
+        width: 60%;
+    }
+    .author .title-container{
+        font-size: 35px;
+    }
+
+}
+@media only screen and (min-width: 768px){
+    .author .name-img{
+        font-size: 23px;
+    }
+    .image{
+        width: 80%;
+    }
+    .author .title-container{
+        font-size: 50px;
+    }
 }
 
 .button {
@@ -28,7 +54,7 @@ html{
     font-family: 'Galada', cursive;
 }
 
-.header, .author, .about{
+.header, .about{
     height: 100vh;
 }
 
@@ -37,14 +63,14 @@ html{
 }
 .author{
     background-color: transparent;
+    min-height: 40em;
 }
-.author .image{
+.author .image-container{
     text-align: center;
 }
 .author .name-img{
     text-align: center;
     margin-top: 20px;
-    font-size: 23px;
 }
 .author .icons{
     text-align: center;
@@ -59,9 +85,11 @@ html{
     border-style: solid;
     border-color: #ccc;*/
     color: #595959;
+    
 }
 
 .icon{
     margin: 5px;
     margin-left: 6px;
 }
+

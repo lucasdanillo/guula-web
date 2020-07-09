@@ -1,5 +1,8 @@
-nav a:hover{
+nav .nav-link a:hover{
     color: #ff914d !important;
-    transition: 0.5s;
+    transition: 0.2s;
 }
-
+.active{
+    color: #ff914d !important;
+    transition: 0.2s;
+}
