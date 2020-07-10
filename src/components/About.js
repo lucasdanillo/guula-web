@@ -23,7 +23,7 @@ export default function About() {
                     <Row>
                         <Container className="text-container">
                             <p>Guula é um aplicativo desenvolvido com o propósito de sugerir receitas maravilhosas de
-                             acordo com os ingredientes que o usuário possui.<br/> Com mais de  <b>5 mil receitas</b>, o aplicativo 
+                             acordo com os ingredientes que o usuário possui. Com mais de  <b>5 mil receitas</b>, o aplicativo 
                              fornece opções para todos os gostos. Além de informações básicas como lista de ingredientes e 
                              modo de preparo, cada receita é acompanhada de uma foto e grau de dificuldade.
                              </p>

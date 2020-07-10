@@ -28,6 +28,10 @@ body{
         font-size: 35px;
     }
 
+    .about .text-container{
+        font-size: 12px ;
+    }
+
 }
 @media only screen and (min-width: 768px){
     .author .name-img{
@@ -42,6 +46,10 @@ body{
 
     .about .title-container{
         font-size: 50px;
+    }
+
+    .about .text-container{
+        font-size: 20px ;
     }
 }
 
@@ -101,6 +109,3 @@ body{
     margin-left: 6px;
 }
 
-.about .image-container{
-    font-size: large ;
-}
