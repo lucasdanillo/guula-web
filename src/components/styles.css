@@ -1,8 +1,8 @@
 nav .nav-link a:hover{
-    color: #ff914d !important;
+    font-weight: 600;
     transition: 0.2s;
 }
 .active{
-    color: #ff914d !important;
+    font-weight: 600;
     transition: 0.2s;
 }

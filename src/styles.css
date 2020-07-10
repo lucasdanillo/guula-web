@@ -6,6 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+::selection{
+    background-color: #ff914d;
+    color: white;
+}
 
 html{
     /*scroll-behavior: smooth;*/

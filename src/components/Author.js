@@ -12,7 +12,7 @@ export default function Author() {
 
             <Row>
                 <Container className="title-container" style={{
-                    marginTop: 100,
+                    marginTop: 70,
                     textAlign: "center",
                 }}><span>Desenvolvedores</span>
                 </Container>
