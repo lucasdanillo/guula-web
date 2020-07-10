@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&family=Ubuntu+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     /*scroll-behavior: smooth;*/
 }
@@ -33,20 +37,27 @@ body{
     }
 }
 
-.button:hover{
-    filter: brightness(90%);
+.button {
+    font-family: 'Ubuntu Mono', monospace;
 }
 
+.button:hover{
+/*  filter: brightness(75%); */
+    color: #ff914d ;
+    transition: 0.5s;
+    background-color: "white";
+}
 
 .header{
     position: relative;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),url(./assets/1740.jpg);
+    font-family: 'Galada', cursive;
 }
-
 
 .header, .about{
     height: 100vh;
 }
+
 .about{
     background-color: transparent;
 }
