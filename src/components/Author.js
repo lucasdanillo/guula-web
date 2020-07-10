@@ -124,7 +124,7 @@ export default function Author() {
                                 <FaGithub className="icon" size={28} color="#ff914d" />
                             </a>
 
-                            <a href="hhttps://www.instagram.com/samuelssan28/"  target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/samuelssan28/"  target="_blank" rel="noopener noreferrer">
                                 <FaInstagram className="icon" size={28} color="#ff914d" />
                             </a>
 
