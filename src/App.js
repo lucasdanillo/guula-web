@@ -4,7 +4,7 @@ import NavbarComponent from './components/Navbar';
 import { Container, Button, Row } from 'react-bootstrap';
 import Author from './components/Author';
 import Footer from './components/Footer';
-
+import { Route } from 'react-router-dom';
 
 function App() {
 

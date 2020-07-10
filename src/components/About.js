@@ -6,7 +6,7 @@ import img3 from '../assets/gisele.jpg';
 import img4 from '../assets/samuel.jpeg';
 import { FaInstagram, FaGithub, FaLinkedinIn, } from 'react-icons/fa';
 
-export default function Author() {
+export default function About() {
     return (
         <Container>
 
