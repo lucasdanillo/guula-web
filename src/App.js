@@ -4,7 +4,7 @@ import NavbarComponent from './components/Navbar';
 import { Container, Button, Row } from 'react-bootstrap';
 import Author from './components/Author';
 import Footer from './components/Footer';
-
+import About from './components/About';
 
 function App() {
 
@@ -90,23 +90,7 @@ cor laranja: "#fea26f"
       </div>
 
       <div className="about" id="about">
-          <Container  style={{
-            height: "100vh",
-          }}>
-            <Row>
-              <Container style={{
-                marginTop: 60,
-                textAlign: "center",
-              }}>               
-                <span style={{fontSize: 50,}}>
-                  Sobre     
-                </span>
-                           
-              </Container>
-              
-            </Row>
-
-          </Container>
+         <About />
       </div>
       
       <div className="author" id="author">
