@@ -12,9 +12,21 @@ export default function Author() {
 
             <Row>
                 <Container className="title-container" style={{
-                    marginTop: 70,
+                    marginTop: 40,
+                    marginBottom:30,
                     textAlign: "center",
-                }}><span>Desenvolvedores</span>
+                }}><span style={{
+                    fontFamily: "Open Sans",
+                    fontWeight: "100",
+                    fontStyle: "normal",
+                }}>Desenvolvedores</span>
+                
+                <hr style={{
+                    backgroundColor: "#ff914d",
+                    margin: "0 auto",
+                    width: 80,
+                    height:"1px",
+                }}/>
                 </Container>
             </Row>
             <Row xs={1} md={4}>
@@ -28,21 +40,25 @@ export default function Author() {
                     </Row>
                     <Row>
                         <Container className="name-img">
-                            <span>Arthur Basílio</span>
+                            <span style={{
+                    fontFamily: "Open Sans",
+                    fontWeight: "100",
+                    fontStyle: "normal",
+                }}>Arthur Basílio</span>
                         </Container>
                     </Row>
                     <Row>
                         <Container className="icons">
                             <a href="https://github.com/basilioarth"  target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="icon" size={28} color="#ff914d" />
+                                <FaGithub className="icon" size={28} color="#171717" />
                             </a>
 
                             <a href="https://www.instagram.com/basilioarth/"  target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="icon" size={28} color="#ff914d" />
+                                <FaInstagram className="icon" size={28} color="#171717" />
                             </a>
 
                             <a href="#"  target="_blank" rel="noopener noreferrer">
-                                <FaLinkedinIn className="icon" size={28} color="#ff914d" />
+                                <FaLinkedinIn className="icon" size={28} color="#171717" />
                             </a>
                         </Container>
                     </Row>
@@ -57,21 +73,25 @@ export default function Author() {
                     </Row>
                     <Row>
                         <Container className="name-img">
-                            <span>Danillo Barros</span>
+                            <span style={{
+                    fontFamily: "Open Sans",
+                    fontWeight: "100",
+                    fontStyle: "normal",
+                }}>Danillo Barros</span>
                         </Container>
                     </Row>
                     <Row>
                         <Container className="icons">
                             <a href="https://github.com/lucasdanillo"  target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="icon" size={28} color="#ff914d" />
+                                <FaGithub className="icon" size={28} color="#171717" />
                             </a>
 
                             <a href="https://www.instagram.com/lucasdanillo_/"  target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="icon" size={28} color="#ff914d" />
+                                <FaInstagram className="icon" size={28} color="#171717" />
                             </a>
                             
                             <a href="#"  target="_blank" rel="noopener noreferrer">
-                                <FaLinkedinIn className="icon" size={28} color="#ff914d" />
+                                <FaLinkedinIn className="icon" size={28} color="#171717" />
                             </a>
                         </Container>
                     </Row>
@@ -86,21 +106,25 @@ export default function Author() {
                     </Row>
                     <Row>
                         <Container className="name-img">
-                            <span>Gisele Ribeiro</span>
+                            <span style={{
+                    fontFamily: "Open Sans",
+                    fontWeight: "100",
+                    fontStyle: "normal",
+                }}>Gisele Ribeiro</span>
                         </Container>
                     </Row>
                     <Row>
                         <Container className="icons">
                             <a href="https://github.com/giselesousar"  target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="icon" size={28} color="#ff914d" />
+                                <FaGithub className="icon" size={28} color="#171717" />
                             </a>
 
                             <a href="https://www.instagram.com/xlribeiro_/"  target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="icon" size={28} color="#ff914d" />
+                                <FaInstagram className="icon" size={28} color="#171717" />
                             </a>
                             
                             <a href="#"  target="_blank" rel="noopener noreferrer">
-                                <FaLinkedinIn className="icon" size={28} color="#ff914d" />
+                                <FaLinkedinIn className="icon" size={28} color="#171717" />
                             </a>
                         </Container>
                     </Row>
@@ -115,21 +139,25 @@ export default function Author() {
                     </Row>
                     <Row>
                         <Container className="name-img">
-                            <span>Samuel Santos</span>
+                            <span style={{
+                    fontFamily: "Open Sans",
+                    fontWeight: "100",
+                    fontStyle: "normal",
+                }}>Samuel Santos</span>
                         </Container>
                     </Row>
                     <Row>
                         <Container className="icons">
                             <a href="https://github.com/SamuelSSan28"  target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="icon" size={28} color="#ff914d" />
+                                <FaGithub className="icon" size={28} color="#171717" />
                             </a>
 
                             <a href="https://www.instagram.com/samuelssan28/"  target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="icon" size={28} color="#ff914d" />
+                                <FaInstagram className="icon" size={28} color="#171717" />
                             </a>
 
                             <a href="https://www.linkedin.com/in/samuel-santos-5217831aa/"  target="_blank" rel="noopener noreferrer">
-                                <FaLinkedinIn className="icon" size={28} color="#ff914d" />
+                                <FaLinkedinIn className="icon" size={28} color="#171717" />
                             </a>
                         </Container>
                     </Row>

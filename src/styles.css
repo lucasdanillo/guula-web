@@ -45,11 +45,7 @@ body{
         width: 80%;
     }
     .author .title-container{
-        font-size: 50px;
-    }
-
-    .about .title-container{
-        font-size: 50px;
+        font-size: 48px;
     }
 
     .about .text-container{
@@ -93,10 +89,8 @@ body{
     margin-top: 20px;
 }
 .author .icons{
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    width: 8em;
+    align-items: center;
+    width: 10em;
 }
 .footer{
     text-align: center;
