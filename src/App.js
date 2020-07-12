@@ -63,7 +63,7 @@ cor laranja: "#fea26f"
             position: "absolute",
             width:"100%",
           }}>               
-              <span style={{fontSize: 90, color: "white", fontStyle: "italic"}}>
+              <span className="welcome" style={{ color: "white"}}>
                 Seja bem-vindo(a) ao site de instalação do Guula    
               </span>             
           </Container>

@@ -4,14 +4,26 @@ import app from '../assets/teste.png';
 
 export default function About() {
     return (
-        <Container>
+        <Container className="about">
 
-            <Row>
+            <Row >
                 <Container className="title-container" style={{
-                    marginTop: 100,
+                    marginTop: 40,
+                    marginBottom:30,
                     textAlign: "center",
-
-                }}><span>Sobre</span>
+                }}><span style={{
+                    color:"black",
+                    fontFamily: "Open Sans",
+                    fontWeight: "100",
+                    fontStyle: "normal",
+                }}>Sobre</span>
+                
+                <hr style={{
+                    backgroundColor: "white",
+                    margin: "0 auto",
+                    width: 65,
+                    height:"1px",
+                }}/>
                 </Container>
             </Row>
 
@@ -21,7 +33,7 @@ export default function About() {
                     marginRight: 520,
                 }}>
                     <Row>
-                        <Container className="text-container">
+                        <Container className="text-container"  style={{color:"black"   }}>
                             <p>Guula é um aplicativo desenvolvido com o propósito de sugerir receitas maravilhosas de
                              acordo com os ingredientes que o usuário possui. Com mais de  <b>5 mil receitas</b>, o aplicativo 
                              fornece opções para todos os gostos. Além de informações básicas como lista de ingredientes e 
@@ -36,7 +48,7 @@ export default function About() {
                 }}>
                     <Row>
                         <Container className="image-container">
-                            <Image className="image" src={app}  />
+                            <Image className="d-none d-lg-block" id="app-image" src={app}  />
                         </Container>
                     </Row>
                     

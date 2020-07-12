@@ -18,6 +18,11 @@ body{
     background-color: transparent;
 }
 @media only screen and (max-width: 768px){
+
+    .about{
+        height: 70vh;
+    }
+
     .author .name-img{
         font-size: 23px;
     }
@@ -33,14 +38,30 @@ body{
     }
 
     .about .text-container{
-        font-size: 12px ;
+        font-size: 20px ;
+        text-align: justify;
     }
 
+    .header  .welcome{
+        font-size: 65px;
+        color: "blue";
+        font-style: "italic";
+    }
+    
+    
 }
 @media only screen and (min-width: 768px){
+    .about{
+        height: 100vh;
+    }
     .author .name-img{
         font-size: 23px;
     }
+
+    .image-container #app-image{
+        width: 130%;
+    }
+
     .image{
         width: 80%;
     }
@@ -48,8 +69,17 @@ body{
         font-size: 48px;
     }
 
+    .about .title-container{
+        font-size: 48px;
+    }
+
     .about .text-container{
         font-size: 20px ;
+    }
+
+    .header  .welcome{
+        font-size: 90px;
+        font-style: "italic";
     }
 }
 
@@ -70,12 +100,12 @@ body{
     font-family: 'Galada', cursive;
 }
 
-.header, .about{
+.header{
     height: 100vh;
 }
 
 .about{
-    background-color: transparent;
+    background-color: #ff6200;
 }
 .author{
     background-color: transparent;
