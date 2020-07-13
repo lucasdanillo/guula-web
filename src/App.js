@@ -16,7 +16,7 @@ function App() {
     document.addEventListener("scroll", () => {
       window.scrollY > 250 ?
         setNavbarColors({
-          backgroundColor: "#ff914d",
+          backgroundColor: "#ff6200",
         })
         :
         setNavbarColors({

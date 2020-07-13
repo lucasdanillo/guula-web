@@ -22,7 +22,7 @@ export default function Author() {
                 }}>Desenvolvedores</span>
                 
                 <hr style={{
-                    backgroundColor: "#ff914d",
+                    backgroundColor: "#ff6200",
                     margin: "0 auto",
                     width: 80,
                     height:"1px",

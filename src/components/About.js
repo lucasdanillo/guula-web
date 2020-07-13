@@ -8,11 +8,10 @@ export default function About() {
 
             <Row >
                 <Container className="title-container" style={{
-                    marginTop: 40,
-                    marginBottom:30,
+                    marginTop: 10,
                     textAlign: "center",
                 }}><span style={{
-                    color:"black",
+                    color:"white",
                     fontFamily: "Open Sans",
                     fontWeight: "100",
                     fontStyle: "normal",
@@ -27,31 +26,32 @@ export default function About() {
                 </Container>
             </Row>
 
-            <Row xs={1} md={4}>
-                <Col style={{
+            <Row xs={1} md={12}>
+                <Col md={7} style={{
                     marginTop: 50,
-                    marginRight: 520,
+                    //marginRight: 520,
                 }}>
-                    <Row>
-                        <Container className="text-container"  style={{color:"black"   }}>
+                        <Container className="text-container"  
+                            style={{
+                                color:"white", 
+                                }}>
                             <p>Guula é um aplicativo desenvolvido com o propósito de sugerir receitas maravilhosas de
                              acordo com os ingredientes que o usuário possui. Com mais de  <b>5 mil receitas</b>, o aplicativo 
                              fornece opções para todos os gostos. Além de informações básicas como lista de ingredientes e 
                              modo de preparo, cada receita é acompanhada de uma foto e grau de dificuldade.
                              </p>
                         </Container>
-                    </Row>
                     
                 </Col>
-                <Col style={{
-                    marginTop: 50,
+                <Col md={5} style={{
+                    marginTop: 20,
                 }}>
-                    <Row>
-                        <Container className="image-container">
+                        <Container style={{
+                            display: "flex",
+                            justifyContent: "center",
+                        }} className="image-container">
                             <Image className="d-none d-lg-block" id="app-image" src={app}  />
                         </Container>
-                    </Row>
-                    
                 </Col>
 
                
