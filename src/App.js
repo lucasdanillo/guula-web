@@ -5,6 +5,7 @@ import { Container, Button, Row } from 'react-bootstrap';
 import Author from './components/Author';
 import Footer from './components/Footer';
 import About from './components/About';
+import { Link } from "react-scroll";
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         setNavbarColors({
           backgroundColor: "#fff",
           color: "#171717",
-          shadow: SVGComponentTransferFunctionElement,
+          shadow: true,
         })
         :
         setNavbarColors({
@@ -30,33 +31,33 @@ function App() {
         })
     })
   }, [])
-/* Primeira Divisão:
-cor laranja: "#fea26f"
-  <div className="header" id="home">    
-  <Container className="content" style={{
-    top: "70%",
-    left: 0,
-    right: 0,
-    textAlign: "center",
-    position: "absolute",
-    width:"100%",
-    
-  }} >
-   
-    <Button className="button" size="lg" style={{
-      color: "white",
-      backgroundColor: "#ff914d",
-      borderColor: "#ff914d",
-    }}
-      href="#tutorial"
-    >Dowload do Guula</Button>
-  </Container>
-   
-</div>
-*/
+  /* Primeira Divisão:
+  cor laranja: "#fea26f"
+    <div className="header" id="home">    
+    <Container className="content" style={{
+      top: "70%",
+      left: 0,
+      right: 0,
+      textAlign: "center",
+      position: "absolute",
+      width:"100%",
+      
+    }} >
+     
+      <Button className="button" size="lg" style={{
+        color: "white",
+        backgroundColor: "#ff914d",
+        borderColor: "#ff914d",
+      }}
+        href="#tutorial"
+      >Dowload do Guula</Button>
+    </Container>
+     
+  </div>
+  */
   return (
     <>
-    <NavbarComponent color={navbarColors} />
+      <NavbarComponent color={navbarColors} />
 
       <div className="header" id="home">
 
@@ -67,11 +68,11 @@ cor laranja: "#fea26f"
             right: 0,
             textAlign: "center",
             position: "absolute",
-            width:"100%",
-          }}>               
-              <span className="welcome" style={{ color: "white"}}>
-                Seja bem-vindo(a) ao site de instalação do Guula    
-              </span>             
+            width: "100%",
+          }}>
+            <span className="welcome" style={{ color: "white" }}>
+              Seja bem-vindo(a) ao site de instalação do Guula
+              </span>
           </Container>
         </Row>
 
@@ -81,26 +82,36 @@ cor laranja: "#fea26f"
           right: 0,
           textAlign: "center",
           position: "absolute",
-          width:"100%",
+          width: "100%",
         }} >
-          
+
           <Button className="button" size="lg" style={{
             fontSize: 32,
             backgroundColor: "transparent",
             borderColor: "transparent",
           }}
-            href="#about"
-          >SAIBA MAIS</Button>
+          >
+             <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-70}
+          >
+            SAIBA MAIS
+            </Link>
+          </Button>
         </Container>
-    
+
       </div>
 
       <div className="about" id="about">
-         <About />
+        <About />
       </div>
-      
+
       <div className="author" id="author">
-         <Author />
+        <Author />
       </div>
       <Footer />
     </>
