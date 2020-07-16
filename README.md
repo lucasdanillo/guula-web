@@ -1,4 +1,4 @@
-<p style="text-align:center"><a href="https://raw.githubusercontent.com/SamuelSSan28/guula-mobile/master/assets/icon.png" rel="noopener noreferrer" target="_blank"><img alt="NextLevelWeek" src="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/icon.png?token=APDLVSZL5G6LLQVPDQCAPTC7B6OGW" title="#NextLevelWeek" width="250px" /></a></p>
+<p style="text-align:center"><a href="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/icon.png" rel="noopener noreferrer" target="_blank"><img alt="NextLevelWeek" src="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/icon.png?token=APDLVSZL5G6LLQVPDQCAPTC7B6OGW" title="#NextLevelWeek" width="250px" /></a></p>
 
 
 <h2 style="text-align: center;">&nbsp;</h2>
@@ -12,7 +12,7 @@
 </div>
 
 <div>
-<h1 style="text-align: center;"><a href="https://raw.githubusercontent.com/SamuelSSan28/guula-mobile/master/assets/homeScreen.png" rel="noopener noreferrer" target="_blank"><img alt="Example" height="570" src="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/Home.png?token=APDLVS35T6UYNIYI6CGOC4C7B6OIU" title="Home" width="918" /></a></h1>
+<h1 style="text-align: center;"><a href="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/Home.png" rel="noopener noreferrer" target="_blank"><img alt="Example" height="570" src="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/Home.png?token=APDLVS35T6UYNIYI6CGOC4C7B6OIU" title="Home" width="918" /></a></h1>
 </div>
 
 <p>&nbsp;</p>
