@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import app from '../assets/teste.png';
+import logo from '../assets/icon.png';
 
 export default function About() {
     return (
@@ -10,7 +11,8 @@ export default function About() {
                 <Container className="title-container" style={{
                     marginTop: 10,
                     textAlign: "center",
-                }}><span style={{
+                }}>
+                <span style={{
                     color:"white",
                     fontFamily: "Open Sans",
                     fontWeight: "100",
@@ -33,7 +35,11 @@ export default function About() {
                 }}>
                         <Container className="text-container"  
                             style={{
-                                color:"white", 
+                                color:"white",
+                                fontSize:25,
+                                fontFamily: "Open Sans",
+                                fontWeight: "200",
+                                fontStyle: "normal", 
                                 }}>
                             <p>Guula é um aplicativo desenvolvido com o propósito de sugerir receitas maravilhosas de
                              acordo com os ingredientes que o usuário possui. Com mais de  <b>5 mil receitas</b>, o aplicativo 

@@ -124,10 +124,10 @@ body{
 }
 .footer{
     text-align: center;
-    height: 2em;
-    /*border-width: 1px 0 0 0;
-    border-style: solid;
-    border-color: #ccc;*/
+    background-color: #f8f9fa;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-size: 18px;
     color: #595959;
     
 }

@@ -10,17 +10,23 @@ function App() {
 
   const [navbarColors, setNavbarColors] = useState({
     backgroundColor: 'transparent',
+    color: "#fff",
+    shadow: false,
   });
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
       window.scrollY > 250 ?
         setNavbarColors({
-          backgroundColor: "#ff6200",
+          backgroundColor: "#fff",
+          color: "#171717",
+          shadow: SVGComponentTransferFunctionElement,
         })
         :
         setNavbarColors({
           backgroundColor: "transparent",
+          color: "#fff",
+          shadow: false,
         })
     })
   }, [])

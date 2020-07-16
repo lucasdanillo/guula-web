@@ -25,7 +25,7 @@ export default function Author() {
                     backgroundColor: "#ff6200",
                     margin: "0 auto",
                     width: 80,
-                    height:"1px",
+                    height:"0px",
                 }}/>
                 </Container>
             </Row>

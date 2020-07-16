@@ -10,7 +10,7 @@ export default function Footer(){
         <footer style={{
           marginTop: 5,
         }}
-        > Made with <FaHeart color="red" size={13} /> by Guula </footer>
+        > Copyright &copy; 2020 Guula</footer>
       </Container>
     )
 }

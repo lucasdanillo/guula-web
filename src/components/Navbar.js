@@ -15,20 +15,21 @@ export default function NavbarComponent({color}) {
             expand="lg"
             style={{
                 backgroundColor: color.backgroundColor,
-                transition: "0.3s",
+                transition: "0.3s", 
+                boxShadow: color.shadow ? "0px 8px 8px -6px rgba(0,0,0,.2)" : "",
             }}
         >
             <Navbar.Brand onClick={scrollToTop} style={{
-                        color: "white",
+                        color: color.color,
                         transition: "0.3s",
                         fontSize: 30,
                         cursor: "pointer"
             }}>Guula</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" style={{borderColor: "transparent"}}><FaBars size={25} color="white"/></Navbar.Toggle>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" style={{borderColor: "transparent"}}><FaBars size={25} color={color.color}/></Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav style={{ width: "100%" }} className="mr-auto justify-content-end">
                     <Nav.Link style={{
-                        color: "white",
+                        color: color.color,
                         fontSize: 25
                     }}>
                         <Link
@@ -43,7 +44,7 @@ export default function NavbarComponent({color}) {
                         </Link>
                     </Nav.Link>
                      <Nav.Link style={{
-                        color: "white",
+                        color: color.color,
                         fontSize: 25
                     }}>
                         <Link
@@ -58,7 +59,7 @@ export default function NavbarComponent({color}) {
                         </Link>
                     </Nav.Link>
                     <Nav.Link style={{
-                        color: "white",
+                        color: color.color,
                         fontSize: 25
                     }}>
                         <Link
