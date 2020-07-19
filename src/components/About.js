@@ -8,59 +8,60 @@ export default function About() {
         <Container className="about">
 
             <Row >
-                <Container className="title-container" style={{
-                    marginTop: 10,
-                    textAlign: "center",
-                }}>
-                <span style={{
-                    color:"white",
-                    fontFamily: "Open Sans",
-                    fontWeight: "100",
-                    fontStyle: "normal",
-                }}>Sobre</span>
-                
-                <hr style={{
-                    backgroundColor: "white",
-                    margin: "0 auto",
-                    width: 65,
-                    height:"1px",
-                }}/>
-                </Container>
+
             </Row>
 
             <Row xs={1} md={12}>
-                <Col md={7} style={{
-                    marginTop: 50,
+                <Col md={7} className="d-flex flex-column justify-content-center align-items-center"
+                style={{
+                    minHeight: "100vh",
                     //marginRight: 520,
                 }}>
-                        <Container className="text-container"  
-                            style={{
-                                color:"white",
-                                fontSize:25,
+                    <Container className="text-container"
+                        style={{
+                            color: "white",
+                            fontFamily: "Open Sans",
+                            fontWeight: "200",
+                            fontStyle: "normal",
+                        }}>
+                        <div className="title-container" style={{
+                            marginBottom: 15,
+                        }}>
+                            <span style={{
+                                color: "white",
                                 fontFamily: "Open Sans",
-                                fontWeight: "200",
-                                fontStyle: "normal", 
-                                }}>
-                            <p>Guula é um aplicativo desenvolvido com o propósito de sugerir receitas maravilhosas de
-                             acordo com os ingredientes que o usuário possui. Com mais de  <b>5 mil receitas</b>, o aplicativo 
-                             fornece opções para todos os gostos. Além de informações básicas como lista de ingredientes e 
+                                fontWeight: "100",
+                                fontStyle: "normal",
+                            }}>Sobre o Guula</span>
+
+                            <hr style={{
+                                backgroundColor: "white",
+                                marginTop: "0",
+                                width: "70%",
+                                height: "0.5px",
+                            }} />
+                        </div>
+                        <p>Guula é um aplicativo desenvolvido com o propósito de sugerir receitas maravilhosas de
+                             acordo com os ingredientes que o usuário possui. Com mais de  <b>5 mil receitas</b>, o aplicativo
+                             fornece opções para todos os gostos. Além de informações básicas como lista de ingredientes e
                              modo de preparo, cada receita é acompanhada de uma foto e grau de dificuldade.
                              </p>
-                        </Container>
-                    
+                    </Container>
+
                 </Col>
-                <Col md={5} style={{
-                    marginTop: 20,
+                <Col md={5} className="d-flex flex-column justify-content-center align-items-center" 
+                style={{
+                    minHeight: "100vh",
                 }}>
-                        <Container style={{
-                            display: "flex",
-                            justifyContent: "center",
-                        }} className="image-container">
-                            <Image className="d-none d-lg-block" id="app-image" src={app}  />
-                        </Container>
+                    <Container style={{
+                        display: "flex",
+                        justifyContent: "center",
+                    }} className="image-container">
+                        <Image className="d-none d-lg-block" id="app-image" src={app} />
+                    </Container>
                 </Col>
 
-               
+
             </Row>
         </Container>
     )

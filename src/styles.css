@@ -20,7 +20,7 @@ body{
 @media only screen and (max-width: 768px){
 
     .about{
-        height: 70vh;
+        height: 100vh;
     }
 
     .author .name-img{
@@ -39,13 +39,15 @@ body{
 
     .about .text-container{
         font-size: 20px ;
-        text-align: justify;
     }
 
     .header  .welcome{
         font-size: 65px;
         color: "blue";
         font-style: "italic";
+    }
+    .footer{
+        margin-top: 50px;
     }
     
     
@@ -59,7 +61,7 @@ body{
     }
 
     .image-container #app-image{
-        width: 80%;
+        width: 77%;
     }
 
     .image{
@@ -74,7 +76,7 @@ body{
     }
 
     .about .text-container{
-        font-size: 20px ;
+        font-size: 27px;
     }
 
     .header  .welcome{
