@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './styles.css';
 import NavbarComponent from './components/Navbar';
-import { Container, Button, Row } from 'react-bootstrap';
+import { Container, Button, Row, Image } from 'react-bootstrap';
 import Author from './components/Author';
 import Footer from './components/Footer';
 import About from './components/About';
 import { Link } from "react-scroll";
+import icon from './assets/icon.png';
+import download1 from './assets/downloadAppStore.png';
+import download2 from './assets/downloadGooglePlay.png';
 
 function App() {
 
@@ -31,30 +34,6 @@ function App() {
         })
     })
   }, [])
-  /* Primeira Divisão:
-  cor laranja: "#fea26f"
-    <div className="header" id="home">    
-    <Container className="content" style={{
-      top: "70%",
-      left: 0,
-      right: 0,
-      textAlign: "center",
-      position: "absolute",
-      width:"100%",
-      
-    }} >
-     
-      <Button className="button" size="lg" style={{
-        color: "white",
-        backgroundColor: "#ff914d",
-        borderColor: "#ff914d",
-      }}
-        href="#tutorial"
-      >Dowload do Guula</Button>
-    </Container>
-     
-  </div>
-  */
   return (
     <>
       <NavbarComponent color={navbarColors} />
@@ -63,21 +42,46 @@ function App() {
 
         <Row>
           <Container style={{
-            top: "36%",
+            top: "38%",
             left: 0,
             right: 0,
-            textAlign: "center",
             position: "absolute",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
             width: "100%",
           }}>
+            <Image className="icon" src={icon}/>
             <span className="welcome" style={{ color: "white" }}>
-              Seja bem-vindo(a) ao site de instalação do Guula
-              </span>
+              Guula
+            </span>
+          </Container>
+        </Row>
+
+        <Row>
+          <Container style={{
+            top: "60%",
+            left: 0,
+            right: 0,
+            position: "absolute",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+          }}>
+            <a href="#">
+              <Image className="download" src={download1}/>
+            </a>
+            <a href="#">
+              <Image className="download" src={download2}/>
+            </a>
           </Container>
         </Row>
 
         <Container className="content" style={{
-          top: "86%",
+          top: "80%",
           left: 0,
           right: 0,
           textAlign: "center",
@@ -86,7 +90,7 @@ function App() {
         }} >
 
           <Button className="button" size="lg" style={{
-            fontSize: 32,
+            fontSize: 64,
             backgroundColor: "transparent",
             borderColor: "transparent",
           }}
@@ -99,7 +103,7 @@ function App() {
             duration={500}
             offset={-70}
           >
-            SAIBA MAIS
+            ⌄
             </Link>
           </Button>
         </Container>
