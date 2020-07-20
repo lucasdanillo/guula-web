@@ -50,7 +50,13 @@ body{
     .footer{
         margin-top: 50px;
     }
-    
+    .header .download{
+        width: 35vw;
+    }
+    .header .icon{
+        width: 20vw;
+        margin-right: 20px;
+    }
     
 }
 @media only screen and (min-width: 768px){
@@ -84,6 +90,14 @@ body{
         font-size: 90px;
         font-style: "italic";
     }
+    .header .download{
+        width: 13vw;
+    }
+
+    .header .icon{
+        width: 7vw;
+        margin-right: 20px;
+    }
 }
 
 .button {
@@ -106,16 +120,9 @@ body{
     height: 100vh;
 }
 
-.header .icon{
-    width: 7vw;
-    height: 15vh;
-    margin-right: 20px;
-}
 
-.header .download{
-    width: 11vw;
-    height: 10vh;
-}
+
+
 
 .about{
     background-color: #ff6200;

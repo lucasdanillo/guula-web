@@ -9,6 +9,7 @@ import { Link } from "react-scroll";
 import icon from './assets/icon.png';
 import download1 from './assets/downloadAppStore.png';
 import download2 from './assets/downloadGooglePlay.png';
+import {FaChevronDown} from 'react-icons/fa'
 
 function App() {
 
@@ -69,8 +70,8 @@ function App() {
             flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
-            width: "100%",
-          }}>
+            width: "100%"
+}}>
             <a href="#">
               <Image className="download" src={download1}/>
             </a>
@@ -103,7 +104,7 @@ function App() {
             duration={500}
             offset={-70}
           >
-            ⌄
+            <FaChevronDown size={50} />
             </Link>
           </Button>
         </Container>
