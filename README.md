@@ -26,7 +26,7 @@
 </div>
 
 <div>
-<p align="center"><a href="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/site_gif.gif" rel="noopener noreferrer" target="_blank"><img alt="Gif do Site" height="570" src="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/site_gif.gif" title="Home" width="780" /></a></p>
+<p align="center"><a href="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/site_gif.gif" rel="noopener noreferrer" target="_blank"><img alt="Gif do Site" height="490" src="https://raw.githubusercontent.com/lucasdanillo/guula-web/master/src/assets/site_gif.gif" title="Home" width="720" /></a></p>
 </div>
 
 <p>&nbsp;</p>
