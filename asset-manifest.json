@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/guula-web/static/css/main.b80cf5d9.chunk.css",
+    "main.js": "/guula-web/static/js/main.62e51dc4.chunk.js",
+    "main.js.map": "/guula-web/static/js/main.62e51dc4.chunk.js.map",
+    "runtime-main.js": "/guula-web/static/js/runtime-main.0a4d466a.js",
+    "runtime-main.js.map": "/guula-web/static/js/runtime-main.0a4d466a.js.map",
+    "static/js/2.58915f7a.chunk.js": "/guula-web/static/js/2.58915f7a.chunk.js",
+    "static/js/2.58915f7a.chunk.js.map": "/guula-web/static/js/2.58915f7a.chunk.js.map",
+    "index.html": "/guula-web/index.html",
+    "precache-manifest.ee992191445c19826575e9004d8be0b7.js": "/guula-web/precache-manifest.ee992191445c19826575e9004d8be0b7.js",
+    "service-worker.js": "/guula-web/service-worker.js",
+    "static/css/main.b80cf5d9.chunk.css.map": "/guula-web/static/css/main.b80cf5d9.chunk.css.map",
+    "static/js/2.58915f7a.chunk.js.LICENSE.txt": "/guula-web/static/js/2.58915f7a.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/guula-web/static/media/1740.dde6ff87.jpg",
+    "static/media/arthur.jpeg": "/guula-web/static/media/arthur.e596c3f9.jpeg",
+    "static/media/danillo.jpeg": "/guula-web/static/media/danillo.17298adf.jpeg",
+    "static/media/downloadAppStore.png": "/guula-web/static/media/downloadAppStore.ae485e29.png",
+    "static/media/downloadGooglePlay.png": "/guula-web/static/media/downloadGooglePlay.14be0784.png",
+    "static/media/gisele.jpg": "/guula-web/static/media/gisele.1b0b65d2.jpg",
+    "static/media/icon.png": "/guula-web/static/media/icon.49ba1332.png",
+    "static/media/samuel.jpeg": "/guula-web/static/media/samuel.24fe997c.jpeg",
+    "static/media/teste.png": "/guula-web/static/media/teste.ae1e0c39.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a4d466a.js",
+    "static/js/2.58915f7a.chunk.js",
+    "static/css/main.b80cf5d9.chunk.css",
+    "static/js/main.62e51dc4.chunk.js"
+  ]
+}
