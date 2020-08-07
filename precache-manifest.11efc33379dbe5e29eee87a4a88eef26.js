@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d05875fcd509f20f9b08c0f7a6f3c556",
+    "revision": "6efc104165305458b315f7704fa87d7c",
     "url": "/guula-web/index.html"
   },
   {
-    "revision": "b1f1fabd7761f834cd09",
-    "url": "/guula-web/static/css/main.b80cf5d9.chunk.css"
+    "revision": "4ffaa591fb603f09bb27",
+    "url": "/guula-web/static/css/main.791a0c83.chunk.css"
   },
   {
-    "revision": "0550beb4b606c2cc8882",
-    "url": "/guula-web/static/js/2.58915f7a.chunk.js"
+    "revision": "770016ccbb9755f3a337",
+    "url": "/guula-web/static/js/2.7714ba37.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/guula-web/static/js/2.58915f7a.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/guula-web/static/js/2.7714ba37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1f1fabd7761f834cd09",
-    "url": "/guula-web/static/js/main.62e51dc4.chunk.js"
+    "revision": "4ffaa591fb603f09bb27",
+    "url": "/guula-web/static/js/main.033091c5.chunk.js"
   },
   {
     "revision": "e1e0b79b50865ebeac13",
