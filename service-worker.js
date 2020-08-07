@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/guula-web/precache-manifest.b128a33a01ad99e9a64b60cbffafb41b.js"
+  "/guula-web/precache-manifest.69aeeab16509d4db13fa6e3c1ec9ff5c.js"
 );
 
 self.addEventListener('message', (event) => {
