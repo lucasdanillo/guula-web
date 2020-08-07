@@ -8,8 +8,8 @@ export default function Routes() {
     return (
         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
-                <Route path= '/' exact component={PrivacyPolicy} />
-                <Route path= '/privacy-policy' component={Home} />
+                <Route path= '/' exact component={Home} />
+                <Route path= '/privacy-policy' component={PrivacyPolicy} />
             </Switch>
         </BrowserRouter>
     );
