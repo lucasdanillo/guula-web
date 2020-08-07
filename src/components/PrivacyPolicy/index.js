@@ -1,6 +1,6 @@
-
 import React from 'react';
-import {Container} from 'react-bootstrap';
+import {Container, Col, Row} from 'react-bootstrap';
+import './styles.css';
 
 function PrivacyPolicy() {
   return (
@@ -9,20 +9,21 @@ function PrivacyPolicy() {
         backgroundColor: "rgb(0,0,0,3%)",
         margin: 0, 
         position: "absolute",
+        display: "flex",
+        justifyContent: "center"
     }} >
-        <Container style={{
-            background: "#fff",
-            width: "65%",
+        <Col md={8} xs={12} classname="content-container" style={{
             boxShadow: "0px 0px 4px 1px rgba(0,0,0,.2)",
             marginTop: "30px",
             marginBottom: "30px",
             minHeight: "100vh",
             color: "rgb(0,0,0,55%)",
-            
         }}>
-            <div style={{
-                margin: 30,
-                padding: "50px 10px",
+        <Row style={{
+            justifyContent: "center",
+        }}>
+            <Col md={10} xs={10} style={{
+                padding: "50px 0px",
             }}>
                 <h3>Política de privacidade - Guula</h3>
                 <p>
@@ -57,8 +58,9 @@ function PrivacyPolicy() {
                     color: "orange"
                 }}>guula_contato@gmail.com</span></p>
                 <p>Se você tiver dúvidas ou sugestões sobre a nossa Política de Privacidade, não hesite em entrar em contato.</p>
-            </div>
-        </Container>
+            </Col>
+            </Row>
+        </Col>
     </Container>
 
   );

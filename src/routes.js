@@ -6,10 +6,10 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 
 export default function Routes() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
-                <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
-                <Route path={process.env.PUBLIC_URL + '/privacy-policy'} exact component={PrivacyPolicy} />
+                <Route path= '/' exact component={Home} />
+                <Route path= '/privacy-policy' component={PrivacyPolicy} />
             </Switch>
         </BrowserRouter>
     );
