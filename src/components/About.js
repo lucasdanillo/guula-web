@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import app from '../assets/teste.png';
-import logo from '../assets/icon.png';
 
 export default function About() {
     return (
