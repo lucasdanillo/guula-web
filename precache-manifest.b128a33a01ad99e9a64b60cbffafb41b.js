@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6efc104165305458b315f7704fa87d7c",
+    "revision": "afbeb9e932fe1ee026a203fb6e1f0282",
     "url": "/guula-web/index.html"
   },
   {
